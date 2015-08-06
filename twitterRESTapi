@@ -125,7 +125,7 @@ pprint.pprint(data_set)
 
 # data_set.to_csv("data_set_index.csv", header=True, sep=",", encoding="utf-8")
 
-# data_set.to_json("seahawks_data.json", orient='index')
+# data_set.to_json(hash_tag_search + ".json", orient='index')
 print("Writing CSV, please Wait")
 results_csv.to_csv(hash_tag_search + "_data_" + time.strftime("%x").replace("/", "-") + ".csv", header=True, encoding="utf-8")
 print("CSV Finished")
